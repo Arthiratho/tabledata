@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch data from table</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+              <!-- <button type="submit"  onsubmit="postData()"></button>  -->
+               <form  onsubmit="postData()" >  
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>Name</label>
+                            <input type="text" id="name" class="form-control"/>
+
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label>Email</label>
+                            <input type="text" id="email" class="form-control"/>
+
+                        </div>
+                    </div> 
+<div class="row">
+<div class="col-lg-4">
+    <label>country</label>
+    <select id="" class="form-control">
+        <option>india</option>
+        <option>us</option>
+<option>newzland</option>
+    </select>
+</div>
+<div class="col-lg-4">
+    <label>state</label>
+    <select class="form-control">
+        <option>Tamil Nadu</option>
+        <option>Kerala</option>
+        <option>Andraa</option>
+    </select>
+</div>
+<div class="col-lg-4">
+    <label>city</label>
+    <select class="form-control">
+        <option>chennai</option>
+        <option>karaikal</option>
+        <option>mathurai</option>
+    </select>
+</div>
+</div>
+     <!-- </form> -->
+            </div>
+            <div class="col-lg-6">
+
+<h1>asd</h1>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+   
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
